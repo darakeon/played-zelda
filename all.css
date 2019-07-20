@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+}
+
+.cover {
+	width: 128px;
+	height: 128px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	opacity: 0.2;
+}
+
+	.cover img {
+		max-width: 128px;
+		max-height: 128px;
+	}
+	
+	.cover.current {
+		border: #CC0000 5px dashed;
+		border-radius: 10px;
+		opacity: 0.6;
+		padding: 10px;
+	}
+	
+	.cover.done {
+		opacity: 1;
+	}
